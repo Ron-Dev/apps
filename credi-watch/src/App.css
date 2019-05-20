@@ -1,0 +1,120 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/********** home page*********************/
+.home-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.table {
+  width: 100%;
+  display: table;
+  margin: 0;
+  text-transform: capitalize;
+}
+.row {
+  display: table-row;
+  background: #fff;
+}
+.row.header {
+  color: #07bdbe;
+  background: #fff;
+}
+.row.header:hover {
+  background-color: #fff; 
+ cursor: pointer;
+ color: #07bdbe;
+}
+.cell {
+  display: table-cell;
+  width: calc( 100% / 7)
+}
+.row .cell {
+  font-size: 15px;
+  color: #4c4c4c;
+  line-height: 1.2;
+  font-weight: unset !important;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.row.header .cell {
+  font-size: 18px;
+   color: #07bdbe;;
+  line-height: 1.2;
+  font-weight: unset !important;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+.table, .row {
+  width: 100% !important;
+}
+.row:hover {
+   background-color: #ececff; 
+  cursor: pointer;
+}
+
+header{
+  background-color: #07bdbe !important;
+}
+.options-button{
+  color: #07bdbe !important;
+    cursor: pointer;
+}
+.options-button:hover{
+  text-decoration: underline;
+}
+.title{
+  padding: 14px 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.total-price{
+    padding: 14px 10px;
+    border-radius: 4px;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.total-price:hover {
+  background-color: #fff !important;
+  color: #07bdbe;
+}
+/*************/
+.top-bar-button{
+  margin-left: 20px;
+}
+.top-bar-button button {
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #07bdbe !important;
+  outline: none;
+  color: #fff;
+  width: 100%;
+  height: 48px !important;
+  background-color: #07bdbe !important;
+ 
+} 
+.top-bar-button button:hover {
+  background-color: #fff !important;
+  color: #07bdbe;
+}
+.canvasjs-chart-credit{
+  display: none;
+}
